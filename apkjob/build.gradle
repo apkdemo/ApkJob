@@ -1,0 +1,90 @@
+/*
+ * 欢迎来到代码世界，如果你想修改ApkJob的代码，那我猜你是有更好的主意了～
+ * 那么请到多梦网络（ http://apkdemo.com/ ）说说你的想法，数以万计的童鞋们会因此受益哦～
+ * 同时，你的名字将出现在ApkDemo贡献者名单中，并有一定的积分奖励～
+ * 注释和代码同样重要～
+ * @author ApkDemo @email admin@apkdemo.com
+ */
+
+/**
+ * ApkJob 常用变量配置
+ */
+def AppPackageName = "com.apkdemo.apkjob";  /* 包名：这里并不是主程序的包名（保持默认即可) */
+
+/**
+ * Android Studio 支持插件配置
+ */
+apply plugin: 'com.android.library'         //android-library插件
+apply plugin: 'com.neenbedankt.android-apt'//android-apt插件
+
+/**
+ * Android 版本配置 （这里可以更具需求修改）
+ */
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+
+/**
+ * AA注解Apt配置（保持默认即可）
+ */
+apt {
+    arguments {
+        androidManifestFile variant.processResources.manifestFile
+        resourcePackageName AppPackageName
+    }
+}
+
+/**
+ * .so文件的导入
+ */
+task copyNativeLibs(type: Copy) {
+    from fileTree(dir: 'libs', include: 'armeabi/*.so') into 'build/lib'
+    from fileTree(dir: 'libs', include: 'armeabi-v7a/*.so') into 'build/lib'
+    from fileTree(dir: 'libs', include: 'x86/*.so') into 'build/lib'
+}
+
+
+/**
+ * 支持库配置区域
+ */
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    //框架系列
+    apt 'org.androidannotations:androidannotations:3.2+'                  // AA注解库1
+    compile 'org.androidannotations:androidannotations-api:3.2+'          // AA注解库2
+    //请求系列
+    compile 'com.loopj.android:android-async-http:1.4.5+'                 //Android异步Http请求类库
+    //缓存系列
+    //compile 'com.squareup.picasso:picasso:2.3.3'                          //站长比较常用的图片缓存类库
+    //解析系列
+    compile 'com.alibaba:fastjson:+'                                      //阿里巴巴号称Json解析最快的类库
+    //动画系列
+    //compile 'com.nineoldandroids:library:2.4.0+'                          //Nineoldandroids 最火热的动画处理类库
+    /*-----------------------------------以上均为常用类库默认即可-----------------------------------*/
+
+    //这里可以自己添加您需要的类库（添加过多的类库需要考虑是否用到，否则需要考虑apk生成之后包大小问题）
+
+
+}

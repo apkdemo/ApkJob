@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-b38ee39de0d6dd67efa103291cfb7b15a91a7019.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/classes-026e6ae893f7de0ddf13648353064458f72e1ab5.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/pre-dexed/debug/classes-832249cdfeaa94bb14e6c2931d99c589a9b3c8ef.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.2/b3cd06ff3f21c8cf487c241ed145154fbae6b4e2/fastjson-1.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/fastjson-1.2.2-ec2a3fcf2f7119d9f2f38db24c022888bdf83a1b.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/exploded-aar/ApkJob/apkjob/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1549a3d6bfb5bd27c0e767d905cb33376bade59d">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/classes-9ef0bd4b1b3294bda8563950fdfd1cc76c323f9b.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/program/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d1e22402bef4ae37502b949137f81c1a992473b9.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/exploded-aar/ApkJob/apkjob/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="68cd571049913c90298d8910ba4a7636f03a181b">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/pre-dexed/debug/classes-5d6fdef4bc028a779f92cd4560f7c5347cd374f8.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.5/77bf7cacf9cefe19dc105e5425d2eb1bb5285881/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-bb7353b4ef820d25798bb1d1c192e6094825aaf0.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/library-2.4.0-2bbb96a4bb93bff723185d8fd9db1e9f3762c701.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.3/3bb3c4cea5bebd1ab4a0a679b61fed0838e71756/fastjson-1.2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3bb3c4cea5bebd1ab4a0a679b61fed0838e71756">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/pre-dexed/debug/fastjson-1.2.3-6ce1d594bbef6e0b3362550afa4c14f73305a572.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-269576a3e4cdced0ad788e5c95f4951c063d08d0.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/classes-173536ca2e342b9691253022faa12af5f99cd500.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-baddddf7a5b80c4ae7bf53a0474720cf7d7dd6cc.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/GitHub/ApkJob/app/build/intermediates/pre-dexed/debug/classes-9dedda4404bea33919da54b3358642f52957e65f.jar" />
+    </item>
+    <item
+        jar="/Users/zhoufeng/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.3/1262995965440e28ba5c4d480c9c9ab4ccce84cc/picasso-2.3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
+        <dex dex="/Users/zhoufeng/Local_Git_Reopsitory/OsChina/ApkJob/ApkJob/app/build/intermediates/pre-dexed/debug/picasso-2.3.3-1041b89ca54144e145b44664730cc134ba1b735b.jar" />
+    </item>
+
+</items>

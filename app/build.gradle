@@ -1,0 +1,43 @@
+/**
+ * 常量定义
+ */
+def AppPackageName = "com.apkdemo.apkjob_demo"; /* 包名：必须改当前包名 */
+def AppSigningKey = "/Users/oscar/Desktop/TestApkKey/gradledemo.jks"; /* APK 签名key文件目录 */
+def StorePassword = "123123" /* APK 签名key密码（第一重密码） */
+def KeyAlias = '123321' /* APK 签名key别名 */
+def KeyPassword = "123123" /* APK 签名key别名密码（第二重密码） */
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId AppPackageName
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+/**
+ * ApkJob 支持库
+ */
+dependencies {
+    compile project(':apkjob')  //引用ApkJob
+}
+
