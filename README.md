@@ -4,7 +4,7 @@
 
 ## 简介
 *** 
-> ApkJob 一个轻松实现android架构的集成框架，主要定位快速、开发规范、后期维护  ——  来自于[@ApkDemo](https://apkdemo.com)
+> ApkJob 一个轻松实现android架构的集成框架，主要定位快速、规范和后期维护  ——  来自于[@ApkDemo](http://apkdemo.com)
 
 
 ## 为什么使用ApkJob？
@@ -25,7 +25,7 @@
 
 * ApkJob采用封装的方式将多种第三方类库融合，并且使用一条线串联在一起使用。
 
-* ApkJob是[@ApkDemo](https://apkdemo.com)站长 开发必用，即便是在企业级APP开放上也没问题。
+* ApkJob是[@ApkDemo](http://apkdemo.com)站长 开发必用，即便是在企业级APP开放上也没问题。
 
 * ApkJob开发过天翼彩票、彩票大赢家、摇摇招车打车软件、隐私保险箱、蓝牙spp对接单片机传输等多种大中小型应用
 * ApkJob将来还要更多...
